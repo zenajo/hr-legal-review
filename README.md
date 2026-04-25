@@ -6,9 +6,17 @@ Claude 스킬 — 한국 인사노무 문서 법적 검토
 
 취업규칙, 사규, 인사규정 등 내부 문서를 한국 노동법령 기준으로 검토하는 Claude 전용 스킬입니다.
 
-## 필수 도구
+## 사전 요건: korean-law MCP 설치
 
-- `korean-law` MCP 연결 필요
+이 스킬은 **[korean-law MCP](https://github.com/chrisryugj/korean-law-mcp)** 가 설치되어 있어야 작동합니다.
+
+**Claude Code (CLI / IDE)**:
+
+```bash
+claude mcp add korean-law npx -y korean-law-mcp
+```
+
+**Claude Desktop / claude.ai 사용자**: 설치 방법은 [korean-law-mcp GitHub](https://github.com/chrisryugj/korean-law-mcp)를 참고하세요.
 
 ## 설치 방법
 
