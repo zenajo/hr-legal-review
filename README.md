@@ -12,11 +12,23 @@ Claude 스킬 — 한국 인사노무 문서 법적 검토
 
 ## 설치 방법
 
-이 저장소를 GitHub에 올린 후:
+### Claude Code (CLI / IDE 확장)
 
 ```
-/plugin install {github-username}/hr-legal-review
+/plugin install zenajo/hr-legal-review
 ```
+
+업데이트:
+
+```
+/plugin update k-hr-legal-review
+```
+
+### Claude Desktop / Claude.ai
+
+1. [`skills/k-hr-legal-review/SKILL.md`](skills/k-hr-legal-review/SKILL.md) 파일 다운로드
+2. Claude Desktop → Skills → `+` → **Upload a skill** 선택
+3. 다운로드한 `SKILL.md` 파일 업로드
 
 ## 파일 구조
 
