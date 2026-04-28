@@ -1,5 +1,6 @@
 {
   "name": "k-hr-legal-review",
+  "version": "1.1.0",
   "description": "한국 인사노무 문서 법적 리스크 사전 검토 스킬 (korean-law MCP 필요)",
   "author": {
     "name": "leejo",

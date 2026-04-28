@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "zenajo-plugins",
+  "description": "한국 인사노무 노무 리스크 검토 스킬 모음",
+  "owner": {
+    "name": "leejo",
+    "email": "huijin.jo@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "k-hr-legal-review",
+      "description": "한국 인사노무 문서 법적 리스크 사전 검토 스킬 (korean-law MCP 필요)",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zenajo/hr-legal-review.git"
+      },
+      "homepage": "https://github.com/zenajo/hr-legal-review"
+    }
+  ]
+}
