@@ -34,7 +34,7 @@ claude plugin marketplace add zenajo/hr-legal-review
 claude plugin install k-hr-legal-review
 ```
 
-**3. Claude Code 재시작** — 재시작 후 인사 문서를 붙여넣으면 스킬이 자동으로 트리거됩니다.
+**3. Claude Code 재시작** — 재시작 후 인사 문서나 인사노무 기획 내용을 다루면 자동 트리거 됩니다.
 
 업데이트:
 
