@@ -22,20 +22,30 @@ claude mcp add korean-law npx -y korean-law-mcp
 
 ### Claude Code (CLI / IDE 확장)
 
+**1. 마켓플레이스 등록** (최초 1회):
+
+```bash
+claude plugin marketplace add zenajo/hr-legal-review
 ```
-/plugin install zenajo/hr-legal-review
+
+**2. 플러그인 설치**:
+
+```bash
+claude plugin install k-hr-legal-review
 ```
+
+**3. Claude Code 재시작** — 재시작 후 인사 문서를 붙여넣으면 스킬이 자동으로 트리거됩니다.
 
 업데이트:
 
-```
-/plugin update k-hr-legal-review
+```bash
+claude plugin update k-hr-legal-review
 ```
 
 ### Claude Desktop / Claude.ai
 
 1. [`skills/k-hr-legal-review/SKILL.md`](skills/k-hr-legal-review/SKILL.md) 파일 다운로드
-2. Claude Desktop → Skills → `+` → **Upload a skill** 선택
+2. Claude Desktop → Settings → Skills → `+` → **Upload a skill** 선택
 3. 다운로드한 `SKILL.md` 파일 업로드
 
 ## 파일 구조
@@ -43,7 +53,8 @@ claude mcp add korean-law npx -y korean-law-mcp
 ```
 hr-legal-review/
 ├── .claude-plugin/
-│   └── plugin.json              # 플러그인 메타데이터
+│   ├── plugin.json              # 플러그인 메타데이터
+│   └── marketplace.json         # 마켓플레이스 등록 정보
 ├── skills/
 │   └── k-hr-legal-review/
 │       ├── SKILL.md             # 스킬 메인 파일
@@ -58,3 +69,4 @@ hr-legal-review/
 |------|------|---------|
 | v1.0.0 | 2026-04-24 | 초기 릴리즈 |
 | v1.1.0 | 2026-04-25 | 플러그인 구조로 변환, 스킬명 k-hr-legal-review로 변경 |
+| v1.1.1 | 2026-04-29 | marketplace.json 추가 — CLI 2단계 설치 지원 |
