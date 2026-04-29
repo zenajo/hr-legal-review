@@ -20,33 +20,33 @@ claude mcp add korean-law npx -y korean-law-mcp
 
 ## 설치 방법
 
-### Claude Code (CLI / IDE 확장)
+### 1. Claude Desktop / Claude.ai
 
-**1. 마켓플레이스 등록** (최초 1회):
+1. [`skills/k-hr-legal-review/SKILL.md`](skills/k-hr-legal-review/SKILL.md) 파일 다운로드
+2. Claude Desktop → Settings → Skills → `+` → **Upload a skill** 선택
+3. 다운로드한 `SKILL.md` 파일 업로드
+
+### 2. Claude Code (CLI / IDE 확장)
+
+**1단계. 마켓플레이스 등록** (최초 1회):
 
 ```bash
 claude plugin marketplace add https://github.com/zenajo/hr-legal-review
 ```
 
-**2. 플러그인 설치**:
+**2단계. 플러그인 설치**:
 
 ```bash
 claude plugin install k-hr-legal-review
 ```
 
-**3. Claude Code 재시작** — 재시작 후 인사 문서나 인사노무 기획 내용을 다루면 자동 트리거 됩니다.
+**3단계. Claude Code 재시작** — 재시작 후 인사 문서나 인사노무 기획 내용을 다루면 자동 트리거 됩니다.
 
 업데이트:
 
 ```bash
 claude plugin update k-hr-legal-review
 ```
-
-### Claude Desktop / Claude.ai
-
-1. [`skills/k-hr-legal-review/SKILL.md`](skills/k-hr-legal-review/SKILL.md) 파일 다운로드
-2. Claude Desktop → Settings → Skills → `+` → **Upload a skill** 선택
-3. 다운로드한 `SKILL.md` 파일 업로드
 
 ## 파일 구조
 
