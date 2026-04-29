@@ -25,7 +25,7 @@ claude mcp add korean-law npx -y korean-law-mcp
 **1. 마켓플레이스 등록** (최초 1회):
 
 ```bash
-claude plugin marketplace add zenajo/hr-legal-review
+claude plugin marketplace add https://github.com/zenajo/hr-legal-review
 ```
 
 **2. 플러그인 설치**:
